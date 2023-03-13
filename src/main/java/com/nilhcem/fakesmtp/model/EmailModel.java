@@ -62,4 +62,8 @@ public final class EmailModel {
 	public void setFilePath(String filePath) {
 		this.filePath = filePath;
 	}
+	public static void main(String[] args) {
+		System.out.println("hola mundo");
+	}
 }
+
