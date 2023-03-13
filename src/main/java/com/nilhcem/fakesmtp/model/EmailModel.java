@@ -68,7 +68,9 @@ public final class EmailModel {
 			System.out.println(i);
 		}
 		this.setEmailStr("SujetoPruebas@gmail.com");
-		this.getEmailStr();
+		String email=this.getEmailStr();
+		System.out.println(email);
+		
 	}
 }
 
