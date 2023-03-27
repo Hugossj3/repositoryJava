@@ -10,5 +10,5 @@ public interface Vidas{
         this.morir();
         }*/
     public void morir();
-        //bottat la nave
+        //borrar la nave
 }
