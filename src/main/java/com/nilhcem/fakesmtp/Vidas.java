@@ -1,12 +1,14 @@
-public Interface Vidas{
-      default int getVidas(){
-
-    }
-    private void setVidas();
-    default void restarVidas(){
-
-    }
-    default void morir(){
-        
-    }
+public interface Vidas{
+    
+    public int setVidas(int vidas);
+        //this.vidas=vidas;
+    public int getVidas();
+        //return vidas;
+    public void restarVidas();
+        /*vidas--;
+        if(this.getVidas()==0){
+        this.morir();
+        }*/
+    public void morir();
+        //bottat la nave
 }
